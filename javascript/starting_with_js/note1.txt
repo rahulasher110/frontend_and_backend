@@ -1,0 +1,120 @@
+
+1) HTML is used to make the structure of our web-page
+   CSS is used to make the page more presentable , or we can add some styling to it.
+   JS is basically used to make our web-page more dynamic and add interactivity to our web-pages.
+
+2) JS is used to handle all the events , like when user click on the mouse what we have to perform .
+   Ex -> when user click on the like button, the web-page show that the user like the post.
+         all that happens in real time , we don't have to refresh the page again and again.
+
+   Ex -> when user click on button, we have to show the pop-up , or dialog something using mouse click event.
+
+   Ex -> we also handle keyboard event , like when user comments on something or play some game using the
+         top , left,  right and down key ....
+
+
+3) JS is first called Mocha -> LiveScript -> JavaScript
+
+4) After JS, Microsoft came with JScript. 
+   This caused pain for developers to design pages that work well on both platform IE & Netscapes.
+   Then Netscapes decides to standardized this language. Then Netscapes went to ECMA international, to 
+   standardized the JS. So everyone who follow JS must follow the standard rule.
+   Then ECMAScript first version launched -> ECMAScript 1997
+
+5) With the help of JS we can achieve 
+    > website
+    > game
+    > presentation
+    > mobile apps
+
+6) window.alert("Hello") is used to show alert.
+
+7) How to declare a variable in JavaScript?
+    
+    Declaring a variable with var:
+        ● Use the reserved keyword var to declare a variable in JavaScript.
+        Syntax:
+            var variable_name;
+            var variable_name = value;
+
+            E.g.1 var name; //declaring a variable without assigning value.
+            Note: default value of the variable that does not have any value is undefined.
+
+            E.g. 2. var name = "John"; //declares and assign a string value
+                    name = 10;
+                    name = true;
+            all these declaration are correct.
+            Since JavaScript is a loosely typed language that means it does not require a data
+            type to be declared. you can assign any value to a variable. (e.g string,
+            integer,float,boolean etc).
+
+
+    Re-Declaring JavaScript variables:
+        You can re-declare a javascript variable using var, which will not be losing its value.
+        E.g. The variable val will still have the value 10 after the execution of these statements.
+            var val = 10;
+            var val;
+            console.log(val);//10
+
+    Note: You can't re-declare a variable declared with let or const.
+
+    let and const keywords
+        ES6 introduced two new keywords: let and const.
+    
+    let:
+        ● You can't re-declare the variable defined with the let keyword but can update it.
+    
+        E.g.
+            let a = 15;
+            let a = 15; // syntax error 'a' has already been declared.
+            a = 20; // it is allowed.
+
+    const
+        ● Const is used to declare read-only variables, ie, they can’t be reassigned and redeclared.
+
+        For e.g.
+            const a = 10;
+            console.log(a);
+
+            This will print the value of the constant variable as usual. But what if we tried to reassign a value to it?
+            
+            const a = 10;
+            console.log(a);
+            a = 20;
+
+            This will produce the following error:
+            a = 20; //^ TypeError: Assignment to constant variable.
+
+    The general rules for constructing names for variables (unique identifiers) are:
+        ● Names can contain letters, digits, underscores, and dollar signs.
+        ● Names must begin with a letter.
+        ● Names can also begin with $ and _ (but we will not use it in this
+        tutorial).
+        ● Names are case sensitive (y and Y are different variables).
+        ● Variable names cannot contain spaces.
+        ○ E.g var first Name = “John” (incorrect)
+        var firstName = “John” (correct)
+        ● Reserved words (like JavaScript keywords) cannot be used as names.
+
+    Correct JavaScript Variables:
+        var x = 20;
+        var _name = "John";
+        var value1 = 25;
+        var firstName = "John";
+    Incorrect JavaScript Variables:
+        var 124 = 35;
+        var *value = 87;
+        var var = 25; //'var' is not allowed as a variable declaration name.
+
+8) Different primitive data types are :-
+
+    >   6 primitive built in data type
+        > number
+        > string
+        > boolean
+        > null
+        > undefined
+        > symbol
+
+
+    >   1 object
