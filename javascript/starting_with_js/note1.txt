@@ -26,8 +26,10 @@
     > game
     > presentation
     > mobile apps
+    > add html code to website
+    > add structure to website
 
-6) window.alert("Hello") is used to show alert.
+6) window.alert("Hello") and alert("Hello") is used to show alert.
 
 7) How to declare a variable in JavaScript?
     

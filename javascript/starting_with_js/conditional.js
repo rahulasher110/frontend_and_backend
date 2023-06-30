@@ -59,3 +59,12 @@ else{
 }
 
 console.log(null == undefined);
+
+
+var a;
+if( typeof(a) ) {
+    console.log("true")
+}
+else {
+    console.log("false")
+}
